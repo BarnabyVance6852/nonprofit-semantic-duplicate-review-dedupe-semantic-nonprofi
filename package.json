@@ -1,0 +1,18 @@
+{
+  "name": "nonprofit-semantic-deduplication",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/nonprofit_dedup.ts",
+    "test": "node --experimental-strip-types src/nonprofit_dedup.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.104.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
